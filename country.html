@@ -1,0 +1,89 @@
+<div style="margin-left:100px;margin-right:100px">
+    <head>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=EUC-JP">
+        <TITLE>訪問した国々</TITLE>
+   
+	  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+ <script type="text/javascript">
+  google.charts.load('current', {
+   'packages':['geochart'],
+  });
+  google.charts.setOnLoadCallback(drawRegionsMap);
+  function drawRegionsMap() {
+   var data = google.visualization.arrayToDataTable([
+    ['Country', 'Name'],
+//     ['AE', 'UNITED ARAB EMIRATES'],
+// ['AL', 'ALBANIA'],
+// ['AM', 'ARMENIA'],
+// ['AT', 'AUSTRIA'],
+['AU', 'AUSTRALIA']	   
+// ['AZ', 'AZERBAIJAN'],
+// ['BA', 'BOSNIA AND HERZEGOVINA'],
+// ['BD', 'BANGLADESH'],
+// ['BG', 'BULGARIA'],
+// ['CN', 'CHINA'],
+// ['CZ', 'CZECH REPUBLIC'],
+// ['DE', 'GERMANY'],
+// ['EE', 'ESTONIA'],
+// ['EG', 'EGYPT'],
+// ['FI', 'FINLAND'],
+// ['FR', 'FRANCE'],
+// ['GB', 'UNITED KINGDOM'],
+// ['GE', 'GEORGIA'],
+// ['GR', 'GREECE'],
+// ['HR', 'CROATIA'],
+// ['HU', 'HUNGARY'],
+// ['IL', 'ISRAEL'],
+// ['IN', 'INDIA'],
+// ['IR', 'IRAN'],
+// ['JO', 'JORDAN'],
+['JP', 'JAPAN'],
+// ['KR', 'KOREA'],
+['KZ', 'KAZAKHSTAN'],
+// ['LB', 'LEBANON'],
+// ['LT', 'LITHUANIA'],
+// ['LV', 'LATVIA'],
+// ['MA', 'MOROCCO'],
+// ['MD', 'MOLDOVA'],
+// ['MK', 'MACEDONIA'],
+// ['MX', 'MEXICO'],
+// ['MY', 'MALAYSIA'],
+// ['PE', 'PERU'],
+// ['PH', 'PHILIPPINES'],
+// ['PL', 'POLAND'],
+// ['RO', 'ROMANIA'],
+// ['RU', 'RUSSIAN FEDERATION'],
+// ['SE', 'SWEDEN'],
+// ['SG', 'SINGAPORE'],
+// ['SK', 'SLOVAKIA'],
+// ['SY', 'SYRIAN ARAB REPUBLIC'],
+['TH', 'THAILAND'],
+// ['TN', 'TUNISIA'],
+// ['TR', 'TURKEY'],
+// ['TW', 'TAIWAN'],
+// ['UA', 'UKRAINE'],
+['US', 'UNITED STATES'],
+// ['UZ', 'UZBEKISTAN'],
+// ['YE', 'YEMEN']
+   ]);
+   
+  var options = {};
+  var chart = new google.visualization.GeoChart(document.getElementById('m_visited'));
+  chart.draw(data, options);
+  }
+ </script>
+    </head>
+    <BODY link="00FF00" vlink="2ABBB6" text="ffffff" bgcolor="5f603B">
+	
+	    
+	           <H1>訪問した国</H1>
+
+n contries.<br />
+<div id="m_visited" style="width: 100%;"></div>
+
+
+
+      
+            <a href="https://fremd-er.github.io/new-site/">来るもの拒まず去るもの追わず</a>
+    </body>
+</div>
